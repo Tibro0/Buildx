@@ -1,0 +1,416 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    /* header start */
+    .carousel-caption h5{
+      font-size: 55px;
+    }
+    /* header end */
+    /* builder start */
+    .builder-right-text{
+      width: 75%;
+    }
+    /* builder end */
+    /* feedback start */
+    .feedback-right h1{
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .feedback-right p{
+      margin-bottom: 0px;
+    }
+    /* feedback end */
+    /* Contact Us start */
+    .contact-us-right-button .btn-warning{
+      padding: 12px 25px;
+    }
+    /* Contact Us end */
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    /* header start */
+    .heaher-top-right-email{
+      font-size: 12px;
+    }
+    .heaher-top-right-phone{
+      font-size: 12px;
+    }
+    .carousel-caption h5{
+      font-size: 45px;
+    }
+    .carousel-caption p{
+      width: 49%;
+      margin-bottom: 20px;
+    }
+    .header-quot-left h1{
+      font-size: 25px;
+    }
+    .header-quot-right .btn-light{
+      padding: 12px 30px;
+    }
+    /* header end */
+    /* builder start */
+    .builder-right-text{
+      width: 74%;
+    }
+    /* builder end */
+    /* feedback start */
+    .feedback .feedback-title h1{
+      font-size: 43px;
+      line-height: 63px;
+    }
+    .feedback-right h1{
+      margin-top: 5px;
+      margin-bottom: 5px;
+      line-height: 20px;
+    }
+    .feedback-right p{
+      margin-bottom: 0px;
+    }
+    /* feedback end */
+    /* Contact Us start */
+    .contact-us-left h1{
+      font-size: 18px;
+    }
+    .contact-us-right-button .btn-warning{
+      padding: 12px 18px;
+      font-size: 12px;
+    }
+    /* Contact Us end */
+    /* news start */
+    .news-title h1{
+      font-size: 43px;
+      line-height: 63px;
+    }
+    .news-inner h1{
+      font-size: 21px;
+      line-height: 31px;
+    }
+    /* news end */
+    /* footer start */
+    .footer-top-recent-post-text li{
+      font-size: 11px;
+      line-height: 37px;
+    }
+    .footer-top-recent-news-text h6{
+      font-size: 9px;
+      line-height: 17px;
+    }
+    .footer-top-recent-news-text p{
+      font-size: 7px;
+      line-height: 20px;
+    }
+    .footer-top-contact-info-text li{
+      font-size: 12px;
+      line-height: 17px;
+    }
+    .footer-top-contact-info-icon li{
+      margin-right: 17px;
+    }
+    .footer-top-mailing-list h2{
+      font-size: 10px;
+      line-height: 15px;
+      margin-bottom: 15px;
+    }
+    .footer-top-mailing-list p{
+      font-size: 12px;
+    }
+    /* footer end */
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    /* header start */
+    .heaher-top-left p{
+      text-align: center;
+      margin-bottom: 5px;
+    }
+    .heaher-top-right-email p{
+      text-align: center;
+      margin-bottom: 5px;
+    }
+    .heaher-top-right-phone p{
+      text-align: center;
+    }
+    .header-menu .navbar-light .navbar-nav .nav-link{
+      margin-left: 0px;
+    }
+    .carousel-caption h5{
+      font-size: 40px;
+      line-height: 45px;
+    }
+    .carousel-caption p{
+      width: 70%;
+      font-size: 14px;
+      line-height: 20px;
+      margin-bottom: 10px;
+    }
+    .carousel-caption{
+      top: 0%;
+    }
+    .header-quot-left h1{
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .header-quot-right{
+      text-align: center;
+    }
+    /* header end */
+    /* service start */
+    .service-title p{
+      padding: 0px 50px;
+    }
+    .service .card{
+      margin-bottom: 20px;
+    }
+    .service .card-body{
+      text-align: center;
+      padding: 0px 65px;
+    }
+    /* service end */
+    /* work start */
+    .feedback .feedback-title p{
+      padding: 0px 50px;
+    }
+    .feedback-row{
+      margin-bottom: 20px;
+    }
+    /* work end */
+    /* contact-us start */
+    .contact-us-left{
+      text-align: center;
+    }
+    .contact-us-left h1{
+      margin-left: 0px;
+      line-height: 40px;
+    }
+    .contact-us-left p{
+      margin-left: 0px;
+    }
+    .contact-us-right-button{
+      text-align: center;
+    }
+    /* contact-us end */
+    /* news start */
+    .news-title p{
+      padding: 0px 50px;
+    }
+    .news-inner{
+      margin-top: 20px;
+      text-align: center;
+    }
+    /* footer end */
+    .footer-top-recent-post{
+      text-align: center;
+    }
+    .footer-top-recent-news{
+      text-align: center;
+    }
+    .footer-top-contact-info{
+      text-align: center;
+    }
+    .footer-top-contact-info-icon{
+      text-align: center;
+      display: none;
+    }
+    .footer-top-mailing-list{
+      text-align: center;
+    }
+    .footer-bottom-left p{
+      text-align: center;
+    }
+    .footer-bottom-right{
+      text-align: center;
+      display: none;
+    }
+    /* footer end */
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    /* header start */
+    .heaher-top-left p{
+      text-align: center;
+      margin-bottom: 5px;
+    }
+    .heaher-top-right-email p{
+      text-align: center;
+      margin-bottom: 5px;
+    }
+    .heaher-top-right-phone p{
+      text-align: center;
+    }
+    .header-menu .navbar-light .navbar-nav .nav-link{
+      margin-left: 0px;
+    }
+    .carousel-caption h5{
+      font-size: 40px;
+      line-height: 45px;
+    }
+    .carousel-caption p{
+      width: 70%;
+      font-size: 14px;
+      line-height: 20px;
+      margin-bottom: 10px;
+    }
+    .carousel-caption{
+      top: 0%;
+    }
+    .header-quot-left h1{
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .header-quot-right{
+      text-align: center;
+    }
+    /* header end */
+    /* service start */
+    .service-title p{
+      padding: 0px 50px;
+    }
+    .service .card{
+      margin-bottom: 20px;
+    }
+    .service .card-body{
+      text-align: center;
+      padding: 0px 65px;
+    }
+    /* service end */
+    /* work start */
+    .feedback .feedback-title p{
+      padding: 0px 50px;
+    }
+    .feedback-row{
+      margin-bottom: 20px;
+    }
+    /* work end */
+    /* contact-us start */
+    .contact-us-left{
+      text-align: center;
+    }
+    .contact-us-left h1{
+      margin-left: 0px;
+      line-height: 40px;
+    }
+    .contact-us-left p{
+      margin-left: 0px;
+    }
+    .contact-us-right-button{
+      text-align: center;
+    }
+    /* contact-us end */
+    /* news start */
+    .news-title p{
+      padding: 0px 50px;
+    }
+    .news-inner{
+      margin-top: 20px;
+      text-align: center;
+    }
+    /* footer end */
+    .footer-top-recent-post{
+      text-align: center;
+    }
+    .footer-top-recent-news{
+      text-align: center;
+    }
+    .footer-top-contact-info{
+      text-align: center;
+    }
+    .footer-top-contact-info-icon{
+      text-align: center;
+      display: none;
+    }
+    .footer-top-mailing-list{
+      text-align: center;
+    }
+    .footer-bottom-left p{
+      text-align: center;
+    }
+    .footer-bottom-right{
+      text-align: center;
+      display: none;
+    }
+    /* footer end */
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    /* header start */
+    .heaher-top-left p{
+      text-align: center;
+      margin-bottom: 5px;
+    }
+    .heaher-top-right-email p{
+      text-align: center;
+      margin-bottom: 5px;
+    }
+    .heaher-top-right-phone p{
+      text-align: center;
+    }
+    .header-menu .navbar-light .navbar-nav .nav-link{
+      margin-left: 0px;
+    }
+    .carousel-caption h5{
+      font-size: 10px;
+      line-height: 45px;
+    }
+    .carousel-caption p{
+      width: 70%;
+      font-size: 14px;
+      line-height: 20px;
+      margin-bottom: 10px;
+    }
+    .carousel-caption{
+      top: 0%;
+    }
+    .header-quot-left h1{
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .header-quot-right{
+      text-align: center;
+    }
+    /* header end */
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+    
+  }
